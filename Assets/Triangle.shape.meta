@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 231b2f91a4d33cf408e3dfa22b16e36a
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: shape/ShapeTriangle
+    400000: shape/ShapeTriangle/Transform
+    2100000: material
+    2300000: shape/ShapeTriangle/MeshRenderer
+    3300000: shape/ShapeTriangle/MeshFilter
+    4300000: mesh
+    100100000: shape
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: d93b30103b5928648ad220aa4dcd5b3d, type: 3}
+  svgPixelsPerUnit: 100
+  preserveViewport: 0
+  advancedMode: 0
+  predefinedResolutionIndex: 1
+  targetResolution: 1080
+  resolutionMultiplier: 1
+  stepDistance: 10
+  samplingStepDistance: 100
+  maxCordDeviationEnabled: 0
+  maxCordDeviation: 1
+  maxTangentAngleEnabled: 0
+  maxTangentAngle: 5
