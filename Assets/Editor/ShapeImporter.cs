@@ -242,6 +242,7 @@ public class ShapeImporter : ScriptedImporter
 
         mesh.vertices = verticesAll.ToArray();
         mesh.triangles = indicesAll.ToArray();
+        mesh.uv = verticesAll.Select(e => new Vector2()).ToArray();
 
         return mesh;
     }
