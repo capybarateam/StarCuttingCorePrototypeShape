@@ -238,8 +238,8 @@ namespace Net3dBool
             Segment segment2;
             double distFace1Vert1, distFace1Vert2, distFace1Vert3, distFace2Vert1, distFace2Vert2, distFace2Vert3;
             int signFace1Vert1, signFace1Vert2, signFace1Vert3, signFace2Vert1, signFace2Vert2, signFace2Vert3;
-            int numFacesBefore = GetNumFaces();
-            int numFacesStart = GetNumFaces();
+            //int numFacesBefore = GetNumFaces();
+            //int numFacesStart = GetNumFaces();
 
             //if the objects bounds overlap...
             if (GetBound().Overlap(obj.GetBound()))
@@ -302,7 +302,7 @@ namespace Net3dBool
                                         if (segment1.Intersect(segment2))
                                         {
                                             //PART II - SUBDIVIDING NON-COPLANAR POLYGONS
-                                            int lastNumFaces = GetNumFaces();
+                                            //int lastNumFaces = GetNumFaces();
                                             this.SplitFace(i, segment1, segment2);
 
                                             //prevent from infinite loop (with a loss of faces...)
@@ -418,7 +418,7 @@ namespace Net3dBool
             Vertex vertex1 = AddVertex(newPos1, Status.BOUNDARY);
             Vertex vertex2 = AddVertex(newPos2, Status.BOUNDARY);
 
-            double cont = 0;
+            //double cont = 0;
             if (linedVertex == 1)
             {
                 AddFace(face.v2, face.v3, vertex1);
